@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Simple Todo App</title>
+</head>
+
+<style>
+    main {
+        /* To show both <section> element side by side */
+        display: flex;
+        justify-content: center;
+    }
+</style>
+
+<body>
+    <main>
+        <section>
+            <h3>Input a Todo</h3>
+            <form action="">
+                <input title="Input a Todo" type="text" name="todo" id="todo" />
+                <button type="button" id="addTodo">Add</button>
+            </form>
+        </section>
+        <section>
+            <h3>Get All Todos</h3>
+            <ul id="allTodos"></ul>
+        </section>
+    </main>
+
+
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+            const inputTodo = document.querySelector('#todo');
+            const btnAddTodo = document.querySelector('#addTodo');
+            const allTodos = document.querySelector('#allTodos')
+
+            // if #addTodo clicked
+            btnAddTodo.addEventListener('click', () => {
+                // Get todo value to `todoValue`
+                const todoValue = inputTodo.value;
+
+                // Add new li item to ul#allTodos
+                allTodos.innerHTML += `<li>${todoValue}</li>`;
+
+                // Make empty value of #inputTodo
+                inputTodo.value = ''
+            })
+        })
+    </script>
+</body>
+
+</html>
