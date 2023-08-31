@@ -62,7 +62,7 @@ simple_todo_without_submit.html:
 #### Using Form Submit Option
 
 ##### Why Should Use Form Submit Option
-- It is easy to handle with huge sets of inputs
+- It is easy to handle with huge sets of form inputs.
 
 ##### How to Use Form Submit to Previous Todo Project
 
