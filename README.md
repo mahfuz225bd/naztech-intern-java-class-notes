@@ -1,4 +1,4 @@
-# Naztech Intern Class Note
+# Naztech Intern Class Notes
 ## Index
 1. 27 Aug - Java
 2. 28 Aug - Java
