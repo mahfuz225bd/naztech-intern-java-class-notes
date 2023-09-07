@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A Simple Todo App</title>
+    <title>A Name Listing App</title>
 </head>
 
 <style>
@@ -18,29 +18,28 @@
 <body>
     <main>
         <section>
-            <h3>Input a Todo</h3>
-            <form action="" id="todoForm">
-                <input title="Input a Todo" type="text" name="todo" id="todo" />
-                <button type="submit" id="addTodo">Add</button>
+            <h3>Input a Name</h3>
+            <form action="" id="myForm">
+                <input title="Input a Name" type="text" name="name" id="name" autofocus />
+                <button type="submit" id="addName">Add</button>
             </form>
         </section>
         <section>
-            <h3>Get All Todos</h3>
-            <ul id="allTodos"></ul>
+            <h3>Get All Names</h3>
+            <ul id="allNames"></ul>
         </section>
     </main>
-
 
     <script>
         // When the page content is loaded
         window.addEventListener('DOMContentLoaded', () => {
             // Get the input field and buttons
-            const inputTodo = document.querySelector('#todo');
-            const allTodos = document.querySelector('#allTodos')
-            const todoForm = document.querySelector('#todoForm')
+            const inputName = document.getElementById("name")
+            const allNames = document.getElementById("allNames")
+            const myForm = document.getElementById("myForm")
 
-            // When the todoForm is submitted
-            todoForm.addEventListener('submit', (e) => {
+            // When the myForm is submitted
+            myForm.addEventListener('submit', (e) => {
                 // Prevent the default form submission behavior
                 e.preventDefault()
 
@@ -50,17 +49,16 @@
                 // Convert the FormData object to a simple key-value object
                 const formFieldValues = Object.fromEntries(formData);
 
-                // Get the value of the 'todo' field
-                const todoValue = formFieldValues['todo']
+                // Get the value of the 'name' field
+                const nameValue = formFieldValues['name']
 
-                // Add the todoValue to the list of allTodos
-                allTodos.innerHTML += `<li>${todoValue}</li>`;
+                // Add the nameValue to the list of allNames
+                allNames.innerHTML += `<li>${nameValue}</li>`;
 
                 // Reset the form after submission
                 e.target.reset()
             })
         })
-
     </script>
 </body>
 

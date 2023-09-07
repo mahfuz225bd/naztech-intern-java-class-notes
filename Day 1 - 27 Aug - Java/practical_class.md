@@ -37,3 +37,7 @@ public class <Class Name> {
 ### Reserved Words in Java
 
 There are about 54 reserved words in Java. [Click here](https://www.w3schools.com/java/java_ref_keywords.asp) for details.
+
+### Home Work
+
+Write a java program to print "Hello, World" with just notepad.
