@@ -4,10 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Donner Listing</title>
+    <title>Blood Donner Listing</title>
 </head>
 
 <style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
     main {
         /* To show both <section> element side by side */
         display: flex;
@@ -17,6 +21,63 @@
     section {
         padding: 10px;
     }
+
+    /* Style for table */
+    table,
+    th,
+    td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+
+    thead th,
+    tbody td {
+        padding: 5px;
+    }
+
+    /* Style for form and inputs */
+    form {
+        margin-right: 15px;
+    }
+
+    form label:not(.gender-option-label, .checkbox-label) {
+        font-weight: bold;
+    }
+
+    form .required {
+        color: red;
+    }
+
+    form input[type=text],
+    form select {
+        padding: 10px;
+        border-radius: 4px;
+        border: 1px solid #000;
+    }
+
+    form input[type=text] {
+        width: 220px;
+    }
+
+    form select {
+        width: 242px;
+    }
+
+    form button[type=submit] {
+        width: 100%;
+        background-color: #04AA6D;
+        color: white;
+        padding: 10px;
+        margin-top: 15px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: larger;
+    }
+
+    form button[type=submit]:hover {
+        background-color: #45a049;
+    }
 </style>
 
 <body>
@@ -24,26 +85,27 @@
         <section>
             <h3>Enter Donner Information</h3>
             <form id="myForm">
-                <label for="name">Name:</label>
+                <label for="name">Name <span class="required">*</span></label>
                 <br>
-                <input title="Provide Donner Name" type="text" name="name" id="name" />
+                <input title="Provide Donner Name" type="text" name="name" id="name" required />
 
-                <br>
+                <br><br>
 
-                <label>Gender:</label>
+                <label>Gender <span class="required">*</span></label>
                 <br>
-                <input title="Select Gender as Male" type="radio" name="gender" id="genderM" value="M">
-                <label for="genderM">Male</label>
-                <input title="Select Gender as Female" type="radio" name="gender" id="genderF" value="F">
-                <label for="genderF">Female</label>
-                <input title="Select Gender as Other" type="radio" name="gender" id="genderO" value="O">
-                <label for="genderO">Other</label>
+                <input title="Select Gender as Male" type="radio" name="gender" id="genderM" value="Male" required>
+                <label for="genderM" class="gender-option-label">Male</label>
+                <input title="Select Gender as Female" type="radio" name="gender" id="genderF" value="Female">
+                <label for="genderF" class="gender-option-label">Female</label>
+                <input title="Select Gender as Other" type="radio" name="gender" id="genderO" value="Other">
+                <label for="genderO" class="gender-option-label">Other</label>
 
-                <br>
+                <br><br>
 
-                <label for="bloodGroup">Blood Group:</label>
+                <label for="bloodGroup">Blood Group <span class="required">*</span></label>
                 <br>
-                <select name="bloodGroup" id="bloodGroup">
+                <select name="bloodGroup" id="bloodGroup" required>
+                    <option value="">-- Select --</option>
                     <option value="A+">A+</option>
                     <option value="B+">B+</option>
                     <option value="O+">O+</option>
@@ -54,34 +116,43 @@
                     <option value="AB-">AB-</option>
                 </select>
 
-                <br>
+                <br><br>
 
-                <label for="age">Age:</label>
+                <label for="age">Age <span class="required">*</span></label>
                 <br>
-                <input title="Provide Donner Age" type="number" name="age" id="age" min="18" max="60" />
-
-                <br>
-
-                <label for="mobileNumber">Mobile Number:</label>
-                <br>
-                <input title="Provide Mobile Number" type="tel" name="mobileNumber" id="mobileNumber" />
+                <input title="Provide Donner Age" type="text" name="age" id="age" required />
 
                 <br><br>
+
+                <label for="mobileNumber">Mobile Number <span class="required">*</span></label>
+                <br>
+                <input title="Provide Mobile Number" type="text" name="mobileNumber" id="mobileNumber" required />
+
+                <br><br>
+
+
+                <input title="Provide Mobile Number" type="checkbox" name="interested" id="interested" />
+                <label for="interested" class="checkbox-label">Interest to Donate?</label>
+
+                <br>
 
                 <button type="submit" id="addDonner">Add</button>
             </form>
         </section>
         <section>
             <h3>Get All Donners</h3>
-            <table id="allDonners" border="1">
-                <tr>
-                    <th>#</th>
-                    <th>Name</th>
-                    <th>Gender</th>
-                    <th>Blood Group</th>
-                    <th>Age</th>
-                    <th>Mobile Number</th>
-                </tr>
+            <table id="allDonners">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Name</th>
+                        <th>Gender</th>
+                        <th>Blood Group</th>
+                        <th>Age</th>
+                        <th>Mobile Number</th>
+                        <th>Interested?</th>
+                    </tr>
+                </thead>
                 <tbody>
                     <!-- All tbody will goes here -->
                 </tbody>
@@ -92,12 +163,16 @@
     <script>
         // When the page content is loaded
         window.addEventListener('DOMContentLoaded', () => {
-            // Get the input field and buttons
+            // Getting html elements
             const inputName = document.getElementById("name")
+            const allDonners = document.getElementById("allDonners")
             const allDonnersTbody = document.querySelector("table#allDonners tbody")
             const myForm = document.getElementById("myForm")
 
-            // When the myForm is submitted
+            // init id
+            let id = 0
+
+            // When #myForm is submitted
             myForm.addEventListener('submit', (e) => {
                 // Prevent the default form submission behavior
                 e.preventDefault()
@@ -108,21 +183,23 @@
                 // Convert the FormData object to a simple key-value object
                 const formFieldValues = Object.fromEntries(formData);
 
-                // Get the value of ['name', 'gender', 'bloodGroup', 'age', 'mobileNumber'] fields
-                const name = formFieldValues['name']
-                const gender = formFieldValues['gender']
-                const bloodGroup = formFieldValues['bloodGroup']
-                const age = formFieldValues['age']
-                const mobileNumber = formFieldValues['mobileNumber']
+                // Set interest = "No" as init value
+                let interested = "No"
 
-                // Adding dataset of ['name', 'gender', 'bloodGroup', 'age', 'mobileNumber'] values to table#allDonners
+                // For setting interested as "Yes" or "No", according to value of formFieldValues['interested']
+                if (formFieldValues['interested'] === 'on') {
+                    interested = "Yes"
+                }
+
+                // Adding dataset of ['name', 'gender', 'bloodGroup', 'age', 'mobileNumber', 'interested'] values to table#allDonners \w id post increment
                 allDonnersTbody.innerHTML += `<tr>
-                    <td></td>
-                    <td>${name}</td>
-                    <td>${gender}</td>
-                    <td>${bloodGroup}</td>
-                    <td>${age}</td>
-                    <td>${mobileNumber}</td>
+                    <td>${++id}</td>
+                    <td>${formFieldValues['name']}</td>
+                    <td>${formFieldValues['gender']}</td>
+                    <td>${formFieldValues['bloodGroup']}</td>
+                    <td>${formFieldValues['age']}</td>
+                    <td>${formFieldValues['mobileNumber']}</td>
+                    <td>${interested}</td>
                 </tr>`;
 
                 // Reset the form after submission
