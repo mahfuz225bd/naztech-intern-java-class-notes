@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donner Listing</title>
+</head>
+
+<style>
+    main {
+        /* To show both <section> element side by side */
+        display: flex;
+        justify-content: center;
+    }
+
+    section {
+        padding: 10px;
+    }
+</style>
+
+<body>
+    <main>
+        <section>
+            <h3>Enter Donner Information</h3>
+            <form id="myForm">
+                <label for="name">Name:</label>
+                <br>
+                <input title="Provide Donner Name" type="text" name="name" id="name" />
+
+                <br>
+
+                <label>Gender:</label>
+                <br>
+                <input title="Select Gender as Male" type="radio" name="gender" id="genderM" value="M">
+                <label for="genderM">Male</label>
+                <input title="Select Gender as Female" type="radio" name="gender" id="genderF" value="F">
+                <label for="genderF">Female</label>
+                <input title="Select Gender as Other" type="radio" name="gender" id="genderO" value="O">
+                <label for="genderO">Other</label>
+
+                <br>
+
+                <label for="bloodGroup">Blood Group:</label>
+                <br>
+                <select name="bloodGroup" id="bloodGroup">
+                    <option value="A+">A+</option>
+                    <option value="B+">B+</option>
+                    <option value="O+">O+</option>
+                    <option value="AB+">AB+</option>
+                    <option value="A-">A-</option>
+                    <option value="B-">B-</option>
+                    <option value="O-">O-</option>
+                    <option value="AB-">AB-</option>
+                </select>
+
+                <br>
+
+                <label for="age">Age:</label>
+                <br>
+                <input title="Provide Donner Age" type="number" name="age" id="age" min="18" max="60" />
+
+                <br>
+
+                <label for="mobileNumber">Mobile Number:</label>
+                <br>
+                <input title="Provide Mobile Number" type="tel" name="mobileNumber" id="mobileNumber" />
+
+                <br><br>
+
+                <button type="submit" id="addDonner">Add</button>
+            </form>
+        </section>
+        <section>
+            <h3>Get All Donners</h3>
+            <table id="allDonners" border="1">
+                <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Gender</th>
+                    <th>Blood Group</th>
+                    <th>Age</th>
+                    <th>Mobile Number</th>
+                </tr>
+                <tbody>
+                    <!-- All tbody will goes here -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <script>
+        // When the page content is loaded
+        window.addEventListener('DOMContentLoaded', () => {
+            // Get the input field and buttons
+            const inputName = document.getElementById("name")
+            const allDonnersTbody = document.querySelector("table#allDonners tbody")
+            const myForm = document.getElementById("myForm")
+
+            // When the myForm is submitted
+            myForm.addEventListener('submit', (e) => {
+                // Prevent the default form submission behavior
+                e.preventDefault()
+
+                // Create a FormData object from the submitted form
+                const formData = new FormData(e.target);
+
+                // Convert the FormData object to a simple key-value object
+                const formFieldValues = Object.fromEntries(formData);
+
+                // Get the value of ['name', 'gender', 'bloodGroup', 'age', 'mobileNumber'] fields
+                const name = formFieldValues['name']
+                const gender = formFieldValues['gender']
+                const bloodGroup = formFieldValues['bloodGroup']
+                const age = formFieldValues['age']
+                const mobileNumber = formFieldValues['mobileNumber']
+
+                // Adding dataset of ['name', 'gender', 'bloodGroup', 'age', 'mobileNumber'] values to table#allDonners
+                allDonnersTbody.innerHTML += `<tr>
+                    <td></td>
+                    <td>${name}</td>
+                    <td>${gender}</td>
+                    <td>${bloodGroup}</td>
+                    <td>${age}</td>
+                    <td>${mobileNumber}</td>
+                </tr>`;
+
+                // Reset the form after submission
+                e.target.reset()
+            })
+        })
+    </script>
+</body>
+
+</html>
