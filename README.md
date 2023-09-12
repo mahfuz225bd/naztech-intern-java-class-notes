@@ -21,6 +21,5 @@
 1. [30 Aug - Ext.js](./Day%204%20-%2030%20Aug%20-%20Ext.js/index.md) by _Maryam Arfin Fima_
 2. [31 Aug - Ext.js](./Day%204%20-%2030%20Aug%20-%20Ext.js/index.md) by _Maryam Arfin Fima_
 
-### by Instructors
 
-#### <NAME>
+*Note: Please, follow your handnote to easily or better understand this note.*
