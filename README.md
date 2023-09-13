@@ -29,4 +29,10 @@
 
 1. [30 Aug - Ext.js](./Day%204%20-%2030%20Aug%20-%20Ext.js/index.md) by _Maryam Arfin Fima_
 2. [31 Aug - Ext.js](./Day%204%20-%2030%20Aug%20-%20Ext.js/index.md) by _Maryam Arfin Fima_
+<<<<<<< HEAD
 3. [12 Sep - Ext.js](./Day%209%20-%2012%20Sep%20-%20Ext.js/index.md) by _Maryam Arfin Fima_
+=======
+
+
+*Note: Please, follow your handnote to easily or better understand this note.*
+>>>>>>> 20ad13fdf92500acfabfad059050378b6b7c41e6
