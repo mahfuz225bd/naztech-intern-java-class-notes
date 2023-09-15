@@ -1,5 +1,15 @@
 # Naztech Intern Class Notes
 
+## Course Overview
+
+There are some topic which are discuss in this training program:
+
+- Variable, Loop, Function
+- OOP
+- Advance Java
+- Spring
+- Spring Boot
+
 ## Index
 
 1. [27 Aug - Java](./Day%201%20-%2027%20Aug%20-%20Java/index.md) by _Md. Mominul Islam_
@@ -30,3 +40,13 @@
 1. [30 Aug - Ext.js](./Day%204%20-%2030%20Aug%20-%20Ext.js/index.md) by _Maryam Arfin Fima_
 2. [31 Aug - Ext.js](./Day%204%20-%2030%20Aug%20-%20Ext.js/index.md) by _Maryam Arfin Fima_
 3. [12 Sep - Ext.js](./Day%209%20-%2012%20Sep%20-%20Ext.js/index.md) by _Maryam Arfin Fima_
+
+## Resources
+
+Some resources to learn about Java:
+
+- Websites:
+  [Java Tutorial - Javatpoint](https://www.javatpoint.com/java-tutorial)
+  [Java Tutorial - Tutorials Point](https://www.tutorialspoint.com/java/index.htm)
+
+- Book: The Complete Reference of Java by _Herbert Shield_
