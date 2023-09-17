@@ -75,7 +75,9 @@ class MainProgram {
 ![Hiererchical View of JVM, JRE, JDK ](diagram.jpg "Syntax")
 
 **JVM (Java Virtual Machine):** JVM is the runtime engine that executes Java bytecode, ensuring platform independence. It interprets or compiles bytecode into native machine code for execution, handling memory and threads.
+
 **JRE (Java Runtime Environment):** JRE includes the JVM, libraries, and other runtime components required to run Java applications. It's sufficient for running Java programs but doesn't include development tools.
+
 **JDK (Java Development Kit):** JDK is a comprehensive package containing the JRE, development tools, and libraries necessary for creating Java applications. It includes a compiler, debugger, and other utilities for coding, testing, and deploying Java programs. JDK is essential for both development and running Java applications.
 
 ### Syntax and Semantics
