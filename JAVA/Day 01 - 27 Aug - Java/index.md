@@ -113,7 +113,7 @@ Key features of the Java programming language:
 14. Portability: Java's "Write Once, Run Anywhere" philosophy ensures that code written in Java can be compiled once and executed on multiple platforms without modification.
 15. Continuous Evolution: Java continues to evolve with regular updates and new features, ensuring that it remains relevant and competitive in the modern programming landscape.
 
-### Practical
+### 📝Practical
 
 #### How to Install Spring Tools
 

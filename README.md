@@ -69,12 +69,28 @@ Books:
 
 - "The Complete Reference of Java" by _Herbert Shield_
 
+### HTML and CSS
+
+YouTube:
+- [HTML & CSS Crash Course Tutorial](https://www.youtube.com/playlistlist=PL4cUxeGkcC9ivBf_eKCPIAYXWzLlPAm6G) by _Net Ninja_
+
+Websites:
+- [W3Schools - HTML](https://www.w3schools.com/html/default.asp)
+- [W3Schools - CSS](https://www.w3schools.com/css/default.asp)
+
+### Javascript
+
+YouTube:
+- [JavaScript Tutorial for Beginners](https://www.youtube.com/playlist?list=PLsyeobzWxl7rrvgG7MLNIMSTzVCDZZcT4) by _Telusko_
+- [JavaScript Bangla Tutorial | JS Bangla Tutorial Series for Beginners](https://www.youtube.com/playlist?list=PLHiZ4m8vCp9OkrURufHpGUUTBjJhO9Ghy) by _Learn with Sumit - LWS - Bangladesh_
+- [W3Schools - JavaScript](https://www.w3schools.com/js/)
+
 ### ExtJS
 
 Documentation:
 
 - [ExtJS - Documentation](https://docs.sencha.com/extjs/6.2.0/)
 
-HowTOs:
+How TOs:
 
 - [ExtJS - Kitchen Sink](https://examples.sencha.com/extjs/6.6.0/examples/kitchensink/frame-index.html?modern#all)
