@@ -54,16 +54,17 @@ The curriculum of this training program is mainly divided into several modules. 
 ## Resources
 
 ### Java
-- Websites:
-1. [Java Tutorial - Javatpoint](https://www.javatpoint.com/java-tutorial)
-2. [Java Tutorial - Tutorials Point](https://www.tutorialspoint.com/java/index.htm)
-- Books:
-1. "The Complete Reference of Java" by _Herbert Shield_
+Websites:
+- [Java Tutorial - Javatpoint](https://www.javatpoint.com/java-tutorial)
+- [Java Tutorial - Tutorials Point](https://www.tutorialspoint.com/java/index.htm)
+
+Books:
+- "The Complete Reference of Java" by _Herbert Shield_
 
 ### ExtJS
 
-- Documentation:
-1. [ExtJS - Documentation](https://docs.sencha.com/extjs/6.2.0/)
+Documentation:
+- [ExtJS - Documentation](https://docs.sencha.com/extjs/6.2.0/)
 
-- HowTos:
-2. [ExtJS - Kitchen Sink](https://examples.sencha.com/extjs/6.6.0/examples/kitchensink/frame-index.html?modern#all)
+HowTOs:
+- [ExtJS - Kitchen Sink](https://examples.sencha.com/extjs/6.6.0/examples/kitchensink/frame-index.html?modern#all)
