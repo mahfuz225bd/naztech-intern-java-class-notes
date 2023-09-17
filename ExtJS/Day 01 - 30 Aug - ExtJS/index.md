@@ -4,7 +4,7 @@
 
 - Install Ext.js CMD. After completing installation check via cmd:
 
-```
+```powershell
 sencha --version
 ```
 

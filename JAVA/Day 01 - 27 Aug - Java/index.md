@@ -73,9 +73,9 @@ class MainProgram {
 ### Hiererchical View of JVM, JRE, JDK
 
 ![Hiererchical View of JVM, JRE, JDK ](diagram.jpg "Syntax")
-JVM = Java Virtual Machine
-JRE = Java Runtime Environment
-JDK = Java Development Kit
+**JVM (Java Virtual Machine):** JVM is the runtime engine that executes Java bytecode, ensuring platform independence. It interprets or compiles bytecode into native machine code for execution, handling memory and threads.
+**JRE (Java Runtime Environment):** JRE includes the JVM, libraries, and other runtime components required to run Java applications. It's sufficient for running Java programs but doesn't include development tools.
+**JDK (Java Development Kit):** JDK is a comprehensive package containing the JRE, development tools, and libraries necessary for creating Java applications. It includes a compiler, debugger, and other utilities for coding, testing, and deploying Java programs. JDK is essential for both development and running Java applications.
 
 ### Syntax and Semantics
 
@@ -115,11 +115,11 @@ Key features of the Java programming language:
 
 - Go to >> [https://spring.io/tools](https://spring.io/tools).
 - Go to >> _Spring Tools 4 for Eclipse_ section.
-- Download version _4.19.1 - Windows x86_64_ or based on your OS.
+- Choose _4.19.1 - Windows x86_64_ to download or other option based on your OS.
 - Extracting Spring Tools
 - Run 'Hello World' using Spring Tools
 
-_Note: If you have any further confusion, please follow some youtube video or read some blog post._
+_Note: If you have any further confusion, follow some youtube video or read some blog post._
 
 #### Home Work
 
