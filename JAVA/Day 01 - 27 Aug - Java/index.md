@@ -1,10 +1,10 @@
 ### Course Overview
 
-Course overview was given in this lecture, is available in [README.md](../README.md#course-overview).
+Course overview was given in this lecture, is available in [README.md](../../README.md#course-overview).
 
 ### Resources
 
-Some learning resources are suggested in this lecture, is available in [README.md](../README.md#resources)
+Some learning resources are suggested in this lecture, is available in [README.md](../../README.md#resources)
 
 ### What is Java?
 
