@@ -13,48 +13,83 @@ The curriculum of this training program is mainly divided into several modules. 
 
 ## Index
 
-### Week 1
+<details open>
+  <summary>Week 1</summary>
 
 1. [27 Aug - Java](./JAVA/Day%2001%20-%2027%20Aug%20-%20Java/index.md)
 2. [28 Aug - Java](./JAVA/Day%2002%20-%2028%20Aug%20-%20Java/index.md)
 3. [29 Aug - Java](./JAVA/Day%2003%20-%2029%20Aug%20-%20Java/index.md)
 4. [30 Aug - ExtJS](./ExtJS/Day%2001%20-%2030%20Aug%20-%20ExtJS/index.md)
 5. [31 Aug - ExtJS](./ExtJS/Day%2002%20-%2031%20Aug%20-%20ExtJS/index.md)
+</details>
 
-### Week 2
+<details>
+  <summary>Week 2</summary>
 
 4. [03 Sep - Java](./JAVA/Day%2004%20-%2003%20Sep%20-%20Java/index.md)
 5. [04 Sep - Java](./JAVA/Day%2005%20-%2004%20Sep%20-%20Java/index.md)
 6. [05 Sep - Java](./JAVA/Day%2006%20-%2005%20Sep%20-%20Java/index.md)
 7. [06 Sep - ExtJS](./ExtJS/Day%2003%20-%2006%20Sep%20-%20ExtJS/index.md)
 8. [07 Sep - ExtJS](./ExtJS/Day%2004%20-%2007%20Sep%20-%20ExtJS/index.md)
+</details>
 
-### Week 3
+<details>
+  <summary>Week 3</summary>
+
 
 9. [11 Sep - ExtJS](./ExtJS/Day%2005%20-%2011%20Sep%20-%20ExtJS/index.md)
 10. [12 Sep - Java](./JAVA/Day%2007%20-%2012%20Sep%20-%20Java/index.md)
 11. [13 Sep - Java](./JAVA/Day%2008%20-%2013%20Sep%20-%20Java/index.md)
+</details>
 
 ### Subject Wise Index
 
 #### Java
 
+<details open>
+  <summary>Week 1</summary>
+
 1. [27 Aug - Java](./JAVA/Day%2001%20-%2027%20Aug%20-%20Java/index.md)
 2. [28 Aug - Java](./JAVA/Day%2002%20-%2028%20Aug%20-%20Java/index.md)
 3. [29 Aug - Java](./JAVA/Day%2003%20-%2029%20Aug%20-%20Java/index.md)
+</details>
+
+<details>
+  <summary>Week 2</summary>
+
 4. [03 Sep - Java](./JAVA/Day%2004%20-%2003%20Sep%20-%20Java/index.md)
 5. [04 Sep - Java](./JAVA/Day%2005%20-%2004%20Sep%20-%20Java/index.md)
 6. [05 Sep - Java](./JAVA/Day%2006%20-%2005%20Sep%20-%20Java/index.md)
+</details>
+
+<details>
+  <summary>Week 3</summary>
+
 7. [12 Sep - Java](./JAVA/Day%2007%20-%2012%20Sep%20-%20Java/index.md)
 8. [13 Sep - Java](./JAVA/Day%2008%20-%2013%20Sep%20-%20Java/index.md)
+</details>
 
 #### ExtJS
 
+<details open>
+  <summary>Week 1</summary>
+
 1. [30 Aug - ExtJS](./ExtJS/Day%2001%20-%2030%20Aug%20-%20ExtJS/)
 2. [31 Aug - ExtJS](./ExtJS/Day%2002%20-%2031%20Aug%20-%20ExtJS/)
+</details>
+
+<details>
+  <summary>Week 2</summary>
+
 3. [06 Sep - ExtJS](./ExtJS/Day%2003%20-%2006%20Sep%20-%20ExtJS/)
 4. [07 Sep - ExtJS](./ExtJS/Day%2004%20-%2007%20Sep%20-%20ExtJS/)
+</details>
+
+<details>
+  <summary>Week 2</summary>
+
 5. [11 Sep - ExtJS](./ExtJS/Day%2005%20-%2011%20Sep%20-%20ExtJS/)
+</details>
 
 ## Resources
 
