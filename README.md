@@ -2,14 +2,11 @@
 
 ## Course Overview
 
-The curriculum of this training program is mainly divided into several modules. Those are:
+The curriculum of this training program is mainly divided into several modules.
 
-- Variable, Loop, Function
-- OOP
-- Advance Java
-- Spring
-- Spring Boot
-- Fronted Development with ExtJS
+1. [Java](./JAVA/Java%20course%20outline.pdf)
+
+2. Fronted Development with ExtJS. This is a JavaScript framework.
 
 ## Index
 
@@ -100,9 +97,13 @@ The curriculum of this training program is mainly divided into several modules. 
 </details>
 
 <details open>
-  <summary>Others</summary>
+  <summary>week 3</summary>
 
 5. [11 Sep - ExtJS](./ExtJS/Day%2005%20-%2011%20Sep%20-%20ExtJS/index.md)
+
+<details open>
+  <summary>week 4</summary>
+
 6. [18 Sep - ExtJS](./ExtJS/Day%2006%20-%2018%20Sep%20-%20ExtJS/index.md)
 </details>
 
@@ -142,11 +143,9 @@ YouTube:
 
 Documentation:
 
-- [ExtJS - Documentation](https://docs.sencha.com/extjs/6.2.0/)
-
-How TOs:
-
-- [ExtJS - Kitchen Sink](https://examples.sencha.com/extjs/6.6.0/examples/kitchensink/frame-index.html?modern#all)
+- [ExtJS - Documentation](https://docs.sencha.com/extjs/7.6.0/)
+- [ExtJS - Kitchen Sink - Classic](https://examples.sencha.com/extjs/7.6.0/examples/kitchensink/frame-index.html?classic#all)
+- [ExtJS - Kitchen Sink - Modern](https://examples.sencha.com/extjs/7.6.0/examples/kitchensink/frame-index.html?modern#all)
 
 ## Instructors
 
