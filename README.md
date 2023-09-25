@@ -2,11 +2,16 @@
 
 ## Course Overview
 
-The curriculum of this training program is mainly divided into several modules.
+The curriculum of this training program is mainly divided into several modules. Those are:
 
-1. [Java](./JAVA/Java%20course%20outline.pdf)
+- Variable, Loop, Function
+- OOP
+- Advance Java
+- Spring
+- Spring Boot
+- Fronted Development with ExtJS
 
-2. Fronted Development with ExtJS. This is a JavaScript framework.
+But this repository noted for only Java, Spring and Spring Boot.
 
 ## Index
 
@@ -37,13 +42,9 @@ The curriculum of this training program is mainly divided into several modules.
 <details>
   <summary>Week 4</summary>
 
-<<<<<<< HEAD
-9. [19 Sep - Java](./Day%2009%20-%2019%20Sep%20-%20Java/index.md)
-10. [20 Sep - Java](./Day%2010%20-%2020%20Sep%20-%20Java/index.md)
-=======
-12. [18 Sep - ExtJS](./ExtJS/Day%2006%20-%2018%20Sep%20-%20ExtJS/index.md)
-13. [19 Sep - Java](./JAVA/Day%2009%20-%2019%20Sep%20-%20Java/index.md)
-14. [20 Sep - Java](./JAVA/Day%2010%20-%2020%20Sep%20-%20Java/index.md)
+<<<<<<< HEAD 9. [19 Sep - Java](./Day%2009%20-%2019%20Sep%20-%20Java/index.md) 10. [20 Sep - Java](./Day%2010%20-%2020%20Sep%20-%20Java/index.md)
+======= 12. [18 Sep - ExtJS](./ExtJS/Day%2006%20-%2018%20Sep%20-%20ExtJS/index.md) 13. [19 Sep - Java](./JAVA/Day%2009%20-%2019%20Sep%20-%20Java/index.md) 14. [20 Sep - Java](./JAVA/Day%2010%20-%2020%20Sep%20-%20Java/index.md)
+
 </details>
 
 ### Subject Wise Index
@@ -105,11 +106,10 @@ The curriculum of this training program is mainly divided into several modules.
   <summary>week 4</summary>
 
 6. [18 Sep - ExtJS](./ExtJS/Day%2006%20-%2018%20Sep%20-%20ExtJS/index.md)
->>>>>>> 74def943be87a3136555748b54a367de08d03c81
-</details>
+   > > > > > > > 74def943be87a3136555748b54a367de08d03c81
+   </details>
 
 ## Resources
-
 
 Websites:
 
@@ -120,15 +120,14 @@ Books:
 
 - "The Complete Reference of Java" by _Herbert Shield_
 
-
 <<<<<<< HEAD
 
 ## Instructors
 
 - Md. Mominul Islam (<Designation> at _naztech Inc, Dhaka, Bangladesh_)
-- Maksud (Practical) (<Designation> at _naztech Inc, Dhaka, Bangladesh_)
-=======
-YouTube:
+- # Maksud (Practical) (<Designation> at _naztech Inc, Dhaka, Bangladesh_)
+
+  YouTube:
 
 - [HTML & CSS Crash Course Tutorial](https://www.youtube.com/playlistlist=PL4cUxeGkcC9ivBf_eKCPIAYXWzLlPAm6G) by _Net Ninja_
 
@@ -163,4 +162,4 @@ Documentation:
 ### ExtJS
 
 - Theory & Practical: Maryam Arfin Fima (<Designation> at _naztech Inc, Dhaka, Bangladesh_)
->>>>>>> 74def943be87a3136555748b54a367de08d03c81
+  > > > > > > > 74def943be87a3136555748b54a367de08d03c81
