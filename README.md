@@ -18,32 +18,32 @@ But this repository noted for only Java, Spring and Spring Boot.
 <details open>
   <summary>Week 1</summary>
 
-1. [27 Aug - Java](./Day%2001%20-%2027%20Aug%20-%20Java/index.md)
-2. [28 Aug - Java](./Day%2002%20-%2028%20Aug%20-%20Java/index.md)
-3. [29 Aug - Java](./Day%2003%20-%2029%20Aug%20-%20Java/index.md)
+1. [27 Aug - Java](./class_notes/Day%2001%20-%2027%20Aug%20-%20Java/index.md)
+2. [28 Aug - Java](./class_notes/Day%2002%20-%2028%20Aug%20-%20Java/index.md)
+3. [29 Aug - Java](./class_notes/Day%2003%20-%2029%20Aug%20-%20Java/index.md)
 </details>
 
 <details>
   <summary>Week 2</summary>
 
-4. [03 Sep - Java](./Day%2004%20-%2003%20Sep%20-%20Java/index.md)
-5. [04 Sep - Java](./Day%2005%20-%2004%20Sep%20-%20Java/index.md)
-6. [05 Sep - Java](./Day%2006%20-%2005%20Sep%20-%20Java/index.md)
+4. [03 Sep - Java](./class_notes/Day%2004%20-%2003%20Sep%20-%20Java/index.md)
+5. [04 Sep - Java](./class_notes/Day%2005%20-%2004%20Sep%20-%20Java/index.md)
+6. [05 Sep - Java](./class_notes/Day%2006%20-%2005%20Sep%20-%20Java/index.md)
 
 </details>
 
 <details>
   <summary>Week 3</summary>
 
-7. [12 Sep - Java](./Day%2007%20-%2012%20Sep%20-%20Java/index.md)
-8. [13 Sep - Java](./Day%2008%20-%2013%20Sep%20-%20Java/index.md)
+7. [12 Sep - Java](./class_notes/Day%2007%20-%2012%20Sep%20-%20Java/index.md)
+8. [13 Sep - Java](./class_notes/Day%2008%20-%2013%20Sep%20-%20Java/index.md)
 </details>
 
 <details>
   <summary>Week 4</summary>
 
-<<<<<<< HEAD 9. [19 Sep - Java](./Day%2009%20-%2019%20Sep%20-%20Java/index.md) 10. [20 Sep - Java](./Day%2010%20-%2020%20Sep%20-%20Java/index.md)
-======= 12. [18 Sep - ExtJS](./ExtJS/Day%2006%20-%2018%20Sep%20-%20ExtJS/index.md) 13. [19 Sep - Java](./JAVA/Day%2009%20-%2019%20Sep%20-%20Java/index.md) 14. [20 Sep - Java](./JAVA/Day%2010%20-%2020%20Sep%20-%20Java/index.md)
+<<<<<<< HEAD 9. [19 Sep - Java](./class_notes/Day%2009%20-%2019%20Sep%20-%20Java/index.md) 10. [20 Sep - Java](./class_notes/Day%2010%20-%2020%20Sep%20-%20Java/index.md)
+======= 12. [18 Sep - ExtJS](./class_notes/ExtJS/Day%2006%20-%2018%20Sep%20-%20ExtJS/index.md) 13. [19 Sep - Java](./class_notes/JAVA/Day%2009%20-%2019%20Sep%20-%20Java/index.md) 14. [20 Sep - Java](./class_notes/JAVA/Day%2010%20-%2020%20Sep%20-%20Java/index.md)
 
 </details>
 
@@ -54,31 +54,31 @@ But this repository noted for only Java, Spring and Spring Boot.
 <details open>
   <summary>Week 1</summary>
 
-1. [27 Aug - Java](./JAVA/Day%2001%20-%2027%20Aug%20-%20Java/index.md)
-2. [28 Aug - Java](./JAVA/Day%2002%20-%2028%20Aug%20-%20Java/index.md)
-3. [29 Aug - Java](./JAVA/Day%2003%20-%2029%20Aug%20-%20Java/index.md)
+1. [27 Aug - Java](./class_notes/JAVA/Day%2001%20-%2027%20Aug%20-%20Java/index.md)
+2. [28 Aug - Java](./class_notes/JAVA/Day%2002%20-%2028%20Aug%20-%20Java/index.md)
+3. [29 Aug - Java](./class_notes/JAVA/Day%2003%20-%2029%20Aug%20-%20Java/index.md)
 </details>
 
 <details>
   <summary>Week 2</summary>
 
-4. [03 Sep - Java](./JAVA/Day%2004%20-%2003%20Sep%20-%20Java/index.md)
-5. [04 Sep - Java](./JAVA/Day%2005%20-%2004%20Sep%20-%20Java/index.md)
-6. [05 Sep - Java](./JAVA/Day%2006%20-%2005%20Sep%20-%20Java/index.md)
+4. [03 Sep - Java](./class_notes/JAVA/Day%2004%20-%2003%20Sep%20-%20Java/index.md)
+5. [04 Sep - Java](./class_notes/JAVA/Day%2005%20-%2004%20Sep%20-%20Java/index.md)
+6. [05 Sep - Java](./class_notes/JAVA/Day%2006%20-%2005%20Sep%20-%20Java/index.md)
 </details>
 
 <details>
   <summary>Week 3</summary>
 
-7. [12 Sep - Java](./JAVA/Day%2007%20-%2012%20Sep%20-%20Java/index.md)
-8. [13 Sep - Java](./JAVA/Day%2008%20-%2013%20Sep%20-%20Java/index.md)
+7. [12 Sep - Java](./class_notes/JAVA/Day%2007%20-%2012%20Sep%20-%20Java/index.md)
+8. [13 Sep - Java](./class_notes/JAVA/Day%2008%20-%2013%20Sep%20-%20Java/index.md)
 </details>
 
 <details>
   <summary>Week 4</summary>
 
-9. [19 Sep - Java](./JAVA/Day%2009%20-%2019%20Sep%20-%20Java/index.md)
-10. [20 Sep - Java](./JAVA/Day%2010%20-%2020%20Sep%20-%20Java/index.md)
+9. [19 Sep - Java](./class_notes/JAVA/Day%2009%20-%2019%20Sep%20-%20Java/index.md)
+10. [20 Sep - Java](./class_notes/JAVA/Day%2010%20-%2020%20Sep%20-%20Java/index.md)
 </details>
 
 #### ExtJS
@@ -86,26 +86,26 @@ But this repository noted for only Java, Spring and Spring Boot.
 <details open>
   <summary>Week 1</summary>
 
-1. [30 Aug - ExtJS](./ExtJS/Day%2001%20-%2030%20Aug%20-%20ExtJS/index.md)
-2. [31 Aug - ExtJS](./ExtJS/Day%2002%20-%2031%20Aug%20-%20ExtJS/index.md)
+1. [30 Aug - ExtJS](./class_notes/ExtJS/Day%2001%20-%2030%20Aug%20-%20ExtJS/index.md)
+2. [31 Aug - ExtJS](./class_notes/ExtJS/Day%2002%20-%2031%20Aug%20-%20ExtJS/index.md)
 </details>
 
 <details>
   <summary>Week 2</summary>
 
-3. [06 Sep - ExtJS](./ExtJS/Day%2003%20-%2006%20Sep%20-%20ExtJS/index.md)
-4. [07 Sep - ExtJS](./ExtJS/Day%2004%20-%2007%20Sep%20-%20ExtJS/index.md)
+3. [06 Sep - ExtJS](./class_notes/ExtJS/Day%2003%20-%2006%20Sep%20-%20ExtJS/index.md)
+4. [07 Sep - ExtJS](./class_notes/ExtJS/Day%2004%20-%2007%20Sep%20-%20ExtJS/index.md)
 </details>
 
 <details open>
   <summary>week 3</summary>
 
-5. [11 Sep - ExtJS](./ExtJS/Day%2005%20-%2011%20Sep%20-%20ExtJS/index.md)
+5. [11 Sep - ExtJS](./class_notes/ExtJS/Day%2005%20-%2011%20Sep%20-%20ExtJS/index.md)
 
 <details open>
   <summary>week 4</summary>
 
-6. [18 Sep - ExtJS](./ExtJS/Day%2006%20-%2018%20Sep%20-%20ExtJS/index.md)
+6. [18 Sep - ExtJS](./class_notes/ExtJS/Day%2006%20-%2018%20Sep%20-%20ExtJS/index.md)
    > > > > > > > 74def943be87a3136555748b54a367de08d03c81
    </details>
 
