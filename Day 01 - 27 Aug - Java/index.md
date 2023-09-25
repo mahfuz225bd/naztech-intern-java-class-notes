@@ -97,21 +97,21 @@ There are about 54 reserved words in Java. [Click here](https://www.w3schools.co
 
 Key features of the Java programming language:
 
-1. Platform Independence: Java is designed to be platform-independent, meaning that a Java program can run on any operating system with a compatible Java Virtual Machine (JVM).
-2. Object-Oriented: Java follows the object-oriented programming (OOP) paradigm, allowing developers to model real-world entities as objects and create reusable and modular code.
-3. Simple and Easy to Learn: Java has a clean and straightforward syntax, making it relatively easy for beginners to grasp the language's concepts.
-4. Automatic Memory Management: Java manages memory automatically through its built-in garbage collection system, reducing the chances of memory leaks and providing memory efficiency.
-5. Strongly Typed: Java enforces strong type-checking during both compile-time and runtime, enhancing program reliability and reducing errors.
-6. Platform-Independent Libraries: Java comes with a vast standard library that provides pre-built classes and methods for various tasks, saving developers time and effort.
-7. Multithreading: Java supports multithreading, enabling the creation of programs that can execute multiple tasks concurrently, improving efficiency and responsiveness.
-8. Exception Handling: Java has a robust exception handling mechanism that helps manage and recover from runtime errors, ensuring stable and predictable program behavior.
-9. Security: Java has built-in security features, including a security manager and sandbox environment, making it suitable for developing secure applications, especially in web and network environments.
-10. Rich API: Java offers a wide range of APIs (Application Programming Interfaces) for tasks such as I/O, networking, databases, GUI development, and more.
-11. Distributed Computing: Java supports network programming and communication through its rich libraries, making it ideal for building distributed and networked applications.
-12. Dynamic Loading: Java allows classes to be loaded dynamically, which facilitates more flexible and adaptable program structures.
-13. Open Source Community: Java has a vibrant open-source community that contributes to the development of various libraries, frameworks, and tools.
-14. Portability: Java's "Write Once, Run Anywhere" philosophy ensures that code written in Java can be compiled once and executed on multiple platforms without modification.
-15. Continuous Evolution: Java continues to evolve with regular updates and new features, ensuring that it remains relevant and competitive in the modern programming landscape.
+1. **Platform Independence:** Java is designed to be platform-independent, meaning that a Java program can run on any operating system with a compatible Java Virtual Machine (JVM).
+2. **Object-Oriented:** Java follows the object-oriented programming (OOP) paradigm, allowing developers to model real-world entities as objects and create reusable and modular code.
+3. **Simple and Easy to Learn:** Java has a clean and straightforward syntax, making it relatively easy for beginners to grasp the language's concepts.
+4. **Automatic Memory Management:** Java manages memory automatically through its built-in garbage collection system, reducing the chances of memory leaks and providing memory efficiency.
+5. **Strongly Typed:** Java enforces strong type-checking during both compile-time and runtime, enhancing program reliability and reducing errors.
+6. **Platform-Independent Libraries:** Java comes with a vast standard library that provides pre-built classes and methods for various tasks, saving developers time and effort.
+7. **Multithreading:** Java supports multithreading, enabling the creation of programs that can execute multiple tasks concurrently, improving efficiency and responsiveness.
+8. **Exception Handling:** Java has a robust exception handling mechanism that helps manage and recover from runtime errors, ensuring stable and predictable program behavior.
+9. **Security:** Java has built-in security features, including a security manager and sandbox environment, making it suitable for developing secure applications, especially in web and network environments.
+10. **Rich API:** Java offers a wide range of APIs (Application Programming Interfaces) for tasks such as I/O, networking, databases, GUI development, and more.
+11. **Distributed Computing:** Java supports network programming and communication through its rich libraries, making it ideal for building distributed and networked applications.
+12. **Dynamic Loading:** Java allows classes to be loaded dynamically, which facilitates more flexible and adaptable program structures.
+13. **Open Source Community:** Java has a vibrant open-source community that contributes to the development of various libraries, frameworks, and tools.
+14. **Portability:** Java's "Write Once, Run Anywhere" philosophy ensures that code written in Java can be compiled once and executed on multiple platforms without modification.
+15. **Continuous Evolution:** Java continues to evolve with regular updates and new features, ensuring that it remains relevant and competitive in the modern programming landscape.
 
 ### 📝Practical
 
