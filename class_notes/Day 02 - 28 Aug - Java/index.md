@@ -34,6 +34,72 @@ public class MyClass {
 ```
 
 > **Note:**
-> Must have a main method to start executing your program
-> Java class file name must be same as class name
-> In a single java file, there should be one public or default class
+> Java file name must be same as class name, which identify as main class
+> In a single java file, main class must be public
+> Must have a main method to main class to start executing a program
+
+### 📝Practical
+#### Program Practice
+HelloWorld.java: A program to print "Hello, World"
+```java
+public class HelloWorld {
+	public static void main(String[] args){
+		System.out.println("Hello, World");
+	}
+}
+```
+
+UserInput.java: Write a program that take user input to show some output
+```java
+import java.util.Scanner;
+
+public class UserInput {
+	public static void main(String[] args) {
+		Scanner myScanner = new Scanner(System.in);
+		System.out.print("What is you name?: ");
+		
+		String name;
+		name = myScanner.nextLine();
+
+		// Output: Welcome, {Inputed name}
+		System.out.println("Welcome, " + name);
+	}
+}
+```
+
+CommandLineArg.java: Write a program to show some text by command line arguments.
+```java
+public class CommandLineArg {
+	public static void main(String[] args) {
+		System.out.println(args[0] + " " + args[1] + " " + args[2]);
+	}
+}
+```
+
+#### Class Test
+
+### 10 Reserved Words of Java
+if, else, try, catch, finally, for, do, while, class, public, protected, private etc.
+
+### Data Types
+- Char - *char*
+- String - *String*
+- Byte - *byte*
+- Boolean - *bool*
+- Integer - *int*
+- Double - *double*
+- Float - *float*
+- Short - *short*
+
+### Access Modifes in Java
+- default
+- public
+- protected
+- private
+
+### 5 Valid Variable Names in Java
+- name
+- name2
+- $name
+- _name
+- full_name

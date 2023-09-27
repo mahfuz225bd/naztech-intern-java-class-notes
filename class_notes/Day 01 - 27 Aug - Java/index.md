@@ -125,7 +125,7 @@ Key features of the Java programming language:
 
 _Note: If you have any further confusion, follow some youtube video or read some blog post._
 
-#### Home Work
+### Home Work
 
 1. Learn history of JAVA.
 2. Write a JAVA program "Hello World" in notepad and execute with command line.
