@@ -6,6 +6,7 @@ The curriculum of this training program is mainly divided into several modules. 
 
 - Variable, Loop, Function
 - OOP
+
 - Advance Java
 - Spring
 - Spring Boot
