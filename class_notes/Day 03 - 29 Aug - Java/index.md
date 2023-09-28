@@ -110,6 +110,7 @@ In Java, reference types are data types that refer to objects stored in memory r
 - Enums
 
 Example:
+
 Java main code is provided as example.
 ```java
 String name = "John"; 
@@ -125,7 +126,8 @@ Keep in mind that Java is a statically-typed language, which means you need to d
 
 In Java, both _double_ and _float_ are used to store floating-point numbers (numbers with decimal points). The main difference between them is their precision.
 
-1. **float:** It is a 32-bit floating-point type, and it's used for numbers with less precision after the decimal point. For example, 
+1. **float:** It is a 32-bit floating-point type, and it's used for numbers with less precision after the decimal point. For example,
+
     ```java
     float floatValue = 3.14159f;
     System.out.println(floatValue); // Output: 3.14159 
