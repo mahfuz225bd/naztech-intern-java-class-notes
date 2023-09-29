@@ -156,3 +156,5 @@ In Java, variables must adhere to certain rules when it comes to naming. Here ar
 10. **Cannot Match Class Names:** A variable name cannot have the same name as a class name within the same scope.
 
 Remember, following these rules will not only make your code readable but also prevent errors due to incorrect variable naming.
+
+## 📝Practical

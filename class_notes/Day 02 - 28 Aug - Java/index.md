@@ -38,8 +38,8 @@ public class MyClass {
 > In a single java file, main class must be public
 > Must have a main method to main class to start executing a program
 
-### 📝Practical
-#### Program Practice
+## 📝Practical
+### Program Practice
 HelloWorld.java: A program to print "Hello, World"
 ```java
 public class HelloWorld {
@@ -76,12 +76,12 @@ public class CommandLineArg {
 }
 ```
 
-#### Class Test
+### Class Test
 
-### 10 Reserved Words of Java
+#### 10 Reserved Words of Java
 if, else, try, catch, finally, for, do, while, class, public, protected, private etc.
 
-### Data Types
+#### Data Types
 - Char - *char*
 - String - *String*
 - Byte - *byte*
@@ -91,7 +91,7 @@ if, else, try, catch, finally, for, do, while, class, public, protected, private
 - Float - *float*
 - Short - *short*
 
-### Access Modifes in Java
+#### Access Modifes in Java
 - default
 - public
 - protected
