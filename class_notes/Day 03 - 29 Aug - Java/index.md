@@ -48,13 +48,17 @@ They are case-sensitive, so 'age' and 'Age' are different identifiers.
 public class SimpleProgram {
     public static void main(String[] args) {
         // Declaration and Initialization of Variables
-        int age = 25; 
+        int age = 25;
+
         // An integer variable named 'age' with a value of 25
-        double height = 5.9;  
+        double height = 5.9;
+
         // A double variable named 'height' with a value of 5.9
-        String name = "John";  
+        String name = "John";
+
         // A String variable named 'name' with a value "John"
         booleanisStudent = true;  // A boolean variable named 'isStudent' with a value of true
+        
         // Using Variables
         System.out.println("Hello, my name is " + name + ".");
         System.out.println("I am " + age + " years old and " + height + " feet tall.");
@@ -94,7 +98,6 @@ These are the most basic data types that Java provides. They represent single va
 8. **boolean:** Represents true or false.
 
 Example:
-Java main code is provided as example.
 ```java
 int age = 25; 
 double salary = 55000.50; 
@@ -110,8 +113,6 @@ In Java, reference types are data types that refer to objects stored in memory r
 - Enums
 
 Example:
-
-Java main code is provided as example.
 ```java
 String name = "John"; 
 // Reference to a String object int[] numbers = {1, 2, 3, 4}; 

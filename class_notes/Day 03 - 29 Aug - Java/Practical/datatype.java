@@ -1,5 +1,3 @@
-package com.example;
-
 import java.util.Scanner;
 
 // This program explain all primitive datatypes.
