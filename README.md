@@ -56,6 +56,14 @@ But this repository noted for only Java, Spring and Spring Boot.
 
 </details>
 
+<details>
+  <summary>Week 6</summary>
+
+13. [03 Oct - Java](./class_notes/Day%2003%20-%2026%20Oct%20-%20Java/index.md)
+14. [04 Oct - Java](./class_notes/Day%2004%20-%2027%20Oct%20-%20Java/index.md)
+
+</details>
+
 ## Resources
 
 Websites:
