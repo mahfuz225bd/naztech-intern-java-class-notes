@@ -72,7 +72,7 @@ class MainProgram {
 
 ### Hiererchical View of JVM, JRE, JDK
 
-![Hiererchical View of JVM, JRE, JDK ](diagram.jpg "Syntax")
+![Hiererchical View of JVM, JRE, JDK](diagram.jpg "Hiererchical View of JVM, JRE, JDK")
 
 **JVM (Java Virtual Machine):** JVM is the runtime engine that executes Java bytecode, ensuring platform independence. It interprets or compiles bytecode into native machine code for execution, handling memory and threads.
 
