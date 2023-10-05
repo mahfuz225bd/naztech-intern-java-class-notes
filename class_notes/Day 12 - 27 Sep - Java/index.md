@@ -37,7 +37,7 @@ public class PolymorphismExample {
 
 In this example:
 
-1. We have a superclass **Animal** with a method **makeSound()**.
-2. Two subclasses, **Dog** and **Cat**, extend the **Animal** class and override the **makeSound()** method to provide their own implementations.
+1. We have a superclass **Animal** with a method ```makeSound()```.
+2. Two subclasses, **Dog** and **Cat**, extend the **Animal** class and override the ```makeSound()``` method to provide their own implementations.
 3. In the **PolymorphismExample** class, we create objects of type **Animal** but instantiate them as **Dog** and **Cat**.
-4. When we call the **makeSound()** method on these objects, it invokes the overridden method of the actual object type (polymorphism). This allows us to call **makeSound()** on an **Animal** reference, but the specific implementation is determined at runtime based on the object's actual type.
+4. When we call the ```makeSound()``` method on these objects, it invokes the overridden method of the actual object type (polymorphism). This allows us to call ```makeSound()``` on an **Animal** reference, but the specific implementation is determined at runtime based on the object's actual type.
