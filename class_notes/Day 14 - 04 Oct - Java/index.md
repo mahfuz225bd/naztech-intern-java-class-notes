@@ -12,7 +12,7 @@ public interface MyInterface {
 
 Now, let's break down the key elements of interfaces:
 
-1. **interface Keyword:** You declare an `interface` using the interface keyword.
+1. **```interface``` Keyword:** You declare an `interface` using the interface keyword.
 
 2. **Method Signatures:** Inside the interface, you define method signatures without providing the method bodies. These are abstract methods, meaning they don't have any code associated with them.
 
@@ -26,18 +26,23 @@ Now, let's break down the key elements of interfaces:
 interface FirstInterface {
     public void myMethod(); // interface method
 }
+
 interface SecondInterface {
     public void myOtherMethod(); // interface method
 }
+
 class DemoClass implements FirstInterface, SecondInterface {
     public void myMethod() {
         System.out.println("Some text..");
     }
+
     public void myOtherMethod() {
         System.out.println("Some other text...");
     }
 }
-class Main {
+
+// Main Class
+public class BasicInterfaceExample {
     public static void main(String[] args) {
         DemoClass myObj = new DemoClass();
         myObj.myMethod();
@@ -50,9 +55,10 @@ class Main {
 
 ```java
 interface Shape {
+    // Need implement the interface in a class
     double area();
     double perimeter();
-} // Implement the interface in a class
+}
 
 class Circle implements Shape {
     private double radius;
@@ -90,7 +96,8 @@ class Rectangle implements Shape {
     }
 }
 
-public class Main {
+// Main Class
+public class AreaPerimeterCalculation {
     public static void main(String[] args) {
         Circle circle = new Circle(5.0);
         System.out.println("Circle Area: " + circle.area());
