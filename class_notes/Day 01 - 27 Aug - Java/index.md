@@ -115,7 +115,7 @@ Key features of the Java programming language:
 
 ## 📝Practical
 
-#### How to Install Spring Tools
+### How to Install Spring Tools
 
 - Go to >> [https://spring.io/tools](https://spring.io/tools).
 - Go to >> _Spring Tools 4 for Eclipse_ section.
