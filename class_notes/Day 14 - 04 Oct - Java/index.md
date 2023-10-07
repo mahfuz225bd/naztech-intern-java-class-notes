@@ -12,7 +12,7 @@ public interface MyInterface {
 
 Now, let's break down the key elements of interfaces:
 
-1. **```interface``` Keyword:** You declare an `interface` using the interface keyword.
+1. **`interface` Keyword:** You declare an `interface` using the interface keyword.
 
 2. **Method Signatures:** Inside the interface, you define method signatures without providing the method bodies. These are abstract methods, meaning they don't have any code associated with them.
 
@@ -109,3 +109,5 @@ public class AreaPerimeterCalculation {
     }
 }
 ```
+
+In this example, we define an interface `Shape` with two abstract methods: `area()` and `perimeter()`. We then create two classes, `Circle` and `Rectangle`, both of which implement the `Shape` interface. These classes provide concrete implementations for the `area()` and `perimeter()` methods. Interfaces are commonly used to define contracts that classes must adhere to, ensuring a consistent API for various implementations. They're particularly useful when you want to define a common set of methods for classes that may not share the same inheritance hierarchy.
