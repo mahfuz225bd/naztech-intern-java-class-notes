@@ -74,7 +74,7 @@ Books:
 
 - "The Complete Reference of Java" by _Herbert Shield_
 
-## Instructors
+## Trainers
 
-- Md. Mominul Islam (<Designation> at _naztech Inc, Dhaka, Bangladesh_)
-- Maksud (Practical) (<Designation> at _naztech Inc, Dhaka, Bangladesh_)
+- Md. Mominul Islam (Digital Marketing Manager at _naztech Inc, Dhaka, Bangladesh_)
+- Practical: Md. Makhsodur Rahman (Trainee Software Engineer at _naztech Inc, Dhaka, Bangladesh_)
