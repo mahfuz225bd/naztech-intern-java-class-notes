@@ -1,12 +1,12 @@
-### Course Overview
+## Course Overview
 
 Course overview was given in this lecture, is available in [README.md](../../README.md#course-overview).
 
-### Resources
+## Resources
 
 Some learning resources are suggested in this lecture, is available in [README.md](../../README.md#resources)
 
-### What is Java?
+## What is Java?
 
 Java is a popular object-oriented programming language, created in 1995. Now, it is owned by Oracle, originally developed by Sun Microsystems. More than 3 billion devices run with Java. It allows developers to write code that can run on various platforms. It is a popular choice for building applications ranging from web and mobile to enterprise software.
 
@@ -113,19 +113,19 @@ Key features of the Java programming language:
 14. **Portability:** Java's "Write Once, Run Anywhere" philosophy ensures that code written in Java can be compiled once and executed on multiple platforms without modification.
 15. **Continuous Evolution:** Java continues to evolve with regular updates and new features, ensuring that it remains relevant and competitive in the modern programming landscape.
 
-## 📝Practical
+## 🛠️Practical
 
 ### How to Install Spring Tools
 
 - Go to >> [https://spring.io/tools](https://spring.io/tools).
-- Go to >> _Spring Tools 4 for Eclipse_ section.
-- Choose _4.19.1 - Windows x86_64_ to download or other option based on your OS.
+- Go to >> ```Spring Tools 4 for Eclipse``` section.
+- Choose ```4.19.1 - Windows x86_64``` to download or other option based on your OS.
 - Extracting Spring Tools
 - Run 'Hello World' using Spring Tools
 
-_Note: If you have any further confusion, follow some youtube video or read some blog post._
+Note: If you have any further confusion, follow some youtube video or read some blog post.
 
-## Home Work
+## 📝 Home Work
 
 1. Learn history of JAVA.
 2. Write a JAVA program "Hello World" in notepad and execute with command line.
