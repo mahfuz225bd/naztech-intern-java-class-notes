@@ -1,4 +1,4 @@
-### Java Editions
+## Java Editions
 
 Java was initially developed by Sun Microsystems and released as open source software under the GNU General Public License (GPL). Now java is a product of Oracle Corporation. There are four editions of java are available:
 
@@ -7,11 +7,11 @@ Java was initially developed by Sun Microsystems and released as open source sof
 - Enterprise Edition (EE)
 - Card Edition (CE, Learn more about it from [wikipedia](https://en.wikipedia.org/wiki/Java_Card))
 
-### Usage of Package in Java
+## Usage of Package in Java
 
 A package can be used for grouping classes and interfaces together that share a common purpose or concern. It contains all related programs.
 
-### Basic Structure of All Java Program
+## Basic Structure of All Java Program
 
 ```java
 // Optional package declaration
@@ -76,7 +76,7 @@ public class CommandLineArg {
 }
 ```
 
-### Class Test
+### ✍ Class Test
 
 #### 10 Reserved Words of Java
 if, else, try, catch, finally, for, do, while, class, public, protected, private etc.
