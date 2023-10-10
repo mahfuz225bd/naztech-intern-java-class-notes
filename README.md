@@ -63,7 +63,7 @@ But this repository noted for only Java, Spring and Spring Boot.
 
 </details>
 
-<details>
+<details open>
   <summary>Week 7</summary>
 
 13. [10 Oct - Java](./class_notes/Day%2015%20-%2010%20Oct%20-%20Java/index.md)
