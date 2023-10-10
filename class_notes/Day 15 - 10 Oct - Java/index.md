@@ -24,7 +24,7 @@ try {
 }
 ```
 
-### Types of Exceptions
+### Details About Types of Exceptions
 
 #### Checked Exceptions (Compiler Time Exception)
 
