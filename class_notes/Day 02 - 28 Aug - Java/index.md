@@ -103,6 +103,3 @@ if, else, try, catch, finally, for, do, while, class, public, protected, private
 - $name
 - _name
 - full_name
-
-
-Download [PDF](../../pdf_files/class2.pdf)
