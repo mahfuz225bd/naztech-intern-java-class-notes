@@ -129,3 +129,6 @@ Note: If you have any further confusion, follow some youtube video or read some 
 
 1. Learn history of JAVA.
 2. Write a JAVA program "Hello World" in notepad and execute with command line.
+
+
+Download [PDF](../../pdf_files/class1.pdf)
