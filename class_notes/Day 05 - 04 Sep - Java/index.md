@@ -148,40 +148,40 @@ public class NestedIfExample {
 
 The `switch` statement allows you to select one of many code blocks to be executed, based on the value of an expression. Here is the basic structure of `switch` statement:
 
-    ```
-    switch (expression){
-        case value1:
-            // Code for value1
-            break;
-        case value2:
-            // Code for value2
-            break;
-        default:
-            // Code if no case matches
-    }
-    ```
+```
+switch (expression){
+    case value1:
+        // Code for value1
+        break;
+    case value2:
+        // Code for value2
+        break;
+    default:
+        // Code if no case matches
+}
+```
 
-    Example:
-    ```java
-    import java.util.Scanner;
+Example:
+```java
+import java.util.Scanner;
 
-    public class SwitchExample {
-        public static void main(String[] args) {
-            int number = 1;
+public class SwitchExample {
+    public static void main(String[] args) {
+        int number = 1;
 
-            switch (number) {
-                case 0:
-                    System.out.println("Zero");
-                    break;
-                case 1:
-                    System.out.println("One");
-                    break;
-                case 2:
-                    System.out.println("Two");
-                    break;
-                default:
-                    System.out.println("Not Zero, One or Two");
-            }
+        switch (number) {
+            case 0:
+                System.out.println("Zero");
+                break;
+            case 1:
+                System.out.println("One");
+                break;
+            case 2:
+                System.out.println("Two");
+                break;
+            default:
+                System.out.println("Not Zero, One or Two");
         }
     }
-    ```
+}
+```
