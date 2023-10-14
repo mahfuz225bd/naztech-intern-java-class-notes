@@ -9,7 +9,7 @@
 Polymorphism is a fundamental concept in object-oriented programming and is a key feature of the Java programming language. It allows objects of different classes to be treated as objects of a common superclass. In simpler terms, polymorphism enables you to work with objects of different types through a common interface.
 Suppose, Animal is a base class which has some attributes and methods that have all exists in all animals and some other classes is designed and they are Dog, Cat, Cow, House, inherited attributes and methods from Animal class.
 
-![Example of Polymorphism](./Polymorphism%20Example.jpg "Example of Polymorphism")
+![Example of Polymorphism](./images/day10/Polymorphism%20Example.jpg "Example of Polymorphism")
 
 There are two main types of polymorphism in Java:
 - Compile-Time Polymorphism (Static Binding)
