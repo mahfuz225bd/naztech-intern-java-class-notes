@@ -1,3 +1,5 @@
+# Day 13 - 03 Oct
+
 ## Abstraction Concept
 
 Abstraction is one of the core concepts in Java and object-oriented programming (OOP). It involves simplifying complex reality by modeling classes based on the essential properties and behaviors of objects, while hiding unnecessary details. In other words, abstraction allows you to focus on what an object does rather than how it does it. Here's a breakdown of abstraction in Java:

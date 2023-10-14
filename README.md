@@ -1,4 +1,4 @@
-# Naztech Intern Java Class Notes
+# Naztech Intern Java Class Notes -2023
 
 ## Course Overview
 
@@ -19,7 +19,7 @@ But this repository noted for only Java, Spring and Spring Boot.
   <summary>Week 1</summary>
 
 1. [27 Aug - Java](./Day%2001%20-%2027%20Aug%20-%20Java.md)
-2. [28 Aug - Java](./Day%2002%20-%2028%20Aug%20-%20Java.md)
+2. [28 Aug - Java](./Day%2002%20-%2028%20Aug%20-%20Java.Day 05 - 04 Sep - Javamd)
 3. [29 Aug - Java](./Day%2003%20-%2029%20Aug%20-%20Java.md)
 </details>
 

@@ -1,10 +1,12 @@
+# Day 01 - 27 Aug
+
 ## Course Overview
 
-Course overview was given in this lecture, is available in [README.md](../../README.md#course-overview).
+Course overview was given in this lecture, is available in [README.md](./README.md#course-overview).
 
 ## Resources
 
-Some learning resources are suggested in this lecture, is available in [README.md](../../README.md#resources)
+Some learning resources are suggested in this lecture, is available in [README.md](./README.md#resources)
 
 ## What is Java?
 
@@ -48,7 +50,7 @@ Java is a popular object-oriented programming language, created in 1995. Now, it
 
 ### Basic Structure of a Java Program
 
-```
+```java
 class <Class Name> {
     public static void main(String[] args) {
         /* Write your code here */
