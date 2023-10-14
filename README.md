@@ -1,4 +1,4 @@
-# Naztech Intern Class Notes
+# Naztech Intern Java Class Notes
 
 ## Course Overview
 
