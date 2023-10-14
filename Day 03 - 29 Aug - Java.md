@@ -1,3 +1,5 @@
+# Day 03 - 29 Aug
+
 ## Use of Comments in Java Programs
 
 In Java, comments are lines of text that are not executed as part of the program but are included in the code to provide explanations, notes, or annotations. They are used to make the code more readable and understandable for programmers.
