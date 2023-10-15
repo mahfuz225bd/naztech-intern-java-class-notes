@@ -19,7 +19,7 @@ But this repository noted for only Java, Spring and Spring Boot.
   <summary>Week 1</summary>
 
 1. [27 Aug - Java](./Day%2001%20-%2027%20Aug%20-%20Java.md)
-2. [28 Aug - Java](./Day%2002%20-%2028%20Aug%20-%20Java.Day 05 - 04 Sep - Javamd)
+2. [28 Aug - Java](./Day%2002%20-%2028%20Aug%20-%20Java.md)
 3. [29 Aug - Java](./Day%2003%20-%2029%20Aug%20-%20Java.md)
 </details>
 
@@ -66,8 +66,8 @@ But this repository noted for only Java, Spring and Spring Boot.
 <details open>
   <summary>Week 7</summary>
 
-13. [10 Oct - Java](./Day%2015%20-%2010%20Oct%20-%20Java.md)
-14. [11 Oct - Java](./Day%2016%20-%2011%20Oct%20-%20Java.md)
+15. [10 Oct - Java](./Day%2015%20-%2010%20Oct%20-%20Java.md)
+16. [11 Oct - Java](./Day%2016%20-%2011%20Oct%20-%20Java.md)
 
 </details>
 
