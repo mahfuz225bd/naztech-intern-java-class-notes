@@ -10,9 +10,9 @@ Control flow statements in Java are constructs that determine the order in which
     - Nested if-statement
   - switch statement
 - Loop Statements
-  - do while loop
-  - while loop
   - for loop
+  - while loop
+  - do while loop
   - for-each loop
 - Jump Statements
   - break statement
@@ -20,7 +20,10 @@ Control flow statements in Java are constructs that determine the order in which
 
 ### Conditional Statements
 
+As the name suggests, conditional or decision-making statements decide which statement to execute and when. conditional statements evaluate the **Boolean** expression and control the program flow depending upon the result of the condition provided. There are two types of conditional statements in Java, i.e., If statement and switch statement.
+
 #### If Statements
+
 ##### `if` Statement
 
 The `if` statement is used to execute a block of code if a specified condition is true. Here is the basic structure of `if` statement:
@@ -49,15 +52,16 @@ public class CheckAdult {
 The if-else statement is an extension to the if-statement, which uses another block of code, i.e., else block. The else block is executed if the condition of the if-block is evaluated as false. Here is the basic structure of `if else` statement:
 
 ```
-if(condition) {    
-    // executes when condition is true   
-}  
-else{  
-    // executes when condition is false   
-}  
+if(condition) {
+    // executes when condition is true
+}
+else{
+    // executes when condition is false
+}
 ```
 
 Example:
+
 ```java
 public class CheckAdultOrMinor {
   public static void main(String[] args) {
@@ -77,11 +81,11 @@ The if-else-if statement contains the if-statement followed by multiple else-if 
 
 ```
 if (condition 1) {
-  // executes when condition 1 is true   
+  // executes when condition 1 is true
 } else if (condition 2) {
-  // executes when condition 2 is true   
+  // executes when condition 2 is true
 } else {
-  // executes when all the conditions are false   
+  // executes when all the conditions are false
 }
 ```
 
@@ -107,15 +111,15 @@ public class CheckOneTwoOrThree {
 
 ##### Nested if-statement
 
-In nested if-statements, the ```if``` statement can contain a ```if``` or ```if```-```else``` statement inside another if or ```if```-```else``` statement. Here is the basic structure of nested if-statement:
+In nested if-statements, the `if` statement can contain a `if` or `if`-`else` statement inside another if or `if`-`else` statement. Here is the basic structure of nested if-statement:
 
 ```
 if (condition 1) {
-  //executes when condition 1 is true   
+  //executes when condition 1 is true
   if (condition 2) {
-    //executes when condition 2 is true   
+    //executes when condition 2 is true
   } else {
-    //executes when condition 2 is false   
+    //executes when condition 2 is false
   }
 } else {
     //executes when condition 1 is false
@@ -185,3 +189,94 @@ The `switch` statement allows you to select one of many code blocks to be execut
         }
     }
     ```
+
+### Loop Statements
+
+In programming, sometimes we need to execute the block of code repeatedly while some condition evaluates to true. However, loop statements are used to execute the set of instructions in a repeated order. The execution of the set of instructions depends upon a particular condition.
+
+In Java, we have three types of loops that execute similarly. However, there are differences in their syntax and condition checking time.
+
+1. for loop
+2. while loop
+3. do-while loop and
+4. foreach loop, which is an enhanced for loop to traverse the data structures like array or collection.
+
+Let's understand the loop statements one by one.
+
+#### For Loop
+
+In Java, for loop is similar to C and C++. It enables us to initialize the loop variable, check the condition, and increment/decrement in a single line of code. We use the for loop only when we exactly know the number of times, we want to execute the block of code. Here is the basic structure of `for` loop statement:
+
+```
+for (initialization, condition, increment/decrement) {
+  // block of statements
+}
+```
+
+Example:
+
+```java
+public class CalculateFirstTenIntegers {
+    public static void main(String[] args) {
+        int sum = 0;
+        for (int j = 1; j <= 10; j++) {
+            sum = sum + j;
+        }
+        System.out.println("The sum of first 10 natural numbers is " + sum);
+    }
+}
+```
+
+#### While Loop
+
+The while loop is also used to iterate over the number of statements multiple times. However, if we don't know the number of iterations in advance, it is recommended to use a while loop. Unlike for loop, the initialization and increment/decrement doesn't take place inside the loop statement in while loop.
+
+It is also known as the entry-controlled loop since the condition is checked at the start of the loop. If the condition is true, then the loop body will be executed; otherwise, the statements after the loop will be executed. The structure of the `while` loop is given below:
+
+```
+while (condition) {
+  //looping statements
+}
+```
+
+Example:
+
+```java
+public class CalculateFirstTenEvenNumbers {
+    public static void main(String[] args) {
+        int i = 0;
+        System.out.println("Printing the list of first 10 even numbers \n");
+        while (i <= 10) {
+            System.out.println(i);
+            i = i + 2;
+        }
+    }
+}
+```
+
+#### Do While Loop
+
+The do-while loop checks the condition at the end of the loop after executing the loop statements. When the number of iteration is not known and we have to execute the loop at least once, we can use do-while loop.
+
+It is also known as the exit-controlled loop since the condition is not checked in advance. The structure of the do-while loop is given below:
+
+```
+do {
+    //statements
+} while (condition);
+```
+
+Example:
+
+```java
+public class PrintFirstTenEvenNumbers {
+    public static void main(String[] args) {
+        int i = 0;
+        System.out.println("Printing the list of first 10 even numbers \n");
+        do {
+            System.out.println(i);
+            i = i + 2;
+        } while (i <= 10);
+    }
+}
+```
