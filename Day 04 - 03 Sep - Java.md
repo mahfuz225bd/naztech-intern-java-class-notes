@@ -1,3 +1,5 @@
+# Day 04 - 03 Sep
+
 ## Java String Basics
 
 In Java, a string is a not a primitive data type rather it is a reference data type that represents a sequence of characters. It's widely used to store and manipulate text. Here's a brief explanation for beginners:

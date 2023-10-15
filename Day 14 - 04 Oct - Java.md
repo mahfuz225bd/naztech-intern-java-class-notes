@@ -1,3 +1,5 @@
+# Day 14 - 04 Oct
+
 ## Interface
 
 In Java, an interface is a blueprint for a class, similar to an abstract class but with some key differences. An interface defines a set of abstract methods that any class implementing the interface must provide concrete implementations for. It provides a way to achieve multiple inheritance in Java because a class can implement multiple interfaces.
