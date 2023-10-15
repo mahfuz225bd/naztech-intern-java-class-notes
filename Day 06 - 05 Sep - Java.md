@@ -2,7 +2,7 @@
 
 Control flow statements in Java are constructs that determine the order in which the instructions within a program are executed. They allow you to control the flow of your program's logic based on conditions and loops. Java provides three types of control flow statements:
 
-- Decision Making Statements
+- Conditional Statements or Decision Making Statements
   - if statements
     - if statement (Simple if)
     - if-else statement
