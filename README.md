@@ -71,6 +71,14 @@ But this repository noted for only Java, Spring and Spring Boot.
 
 </details>
 
+<details open>
+  <summary>Week 8</summary>
+
+17. [17 Oct - Java](./Day%2017%20-%2017%20Oct%20-%20Java.md)
+18. [18 Oct - Java](./Day%2018%20-%2018%20Oct%20-%20Java.md)
+
+</details>
+
 ## Resources
 
 Websites:
