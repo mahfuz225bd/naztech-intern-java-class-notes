@@ -130,3 +130,38 @@ The ```do```-```while``` loop ensures that the input is collected at least once,
 
 Both while and ```do```-```while``` loops are fundamental for controlling program flow and iteration in Java. The choice between them depends on your specific requirements.
 
+## Foreach Loop
+
+Let’s learn about the "enhanced for loop" or "for-each loop" in Java. This loop is used for iterating over collections like arrays and lists without the need for indices. It's quite beginner-friendly and simplifies iteration.
+Here's how it works:
+
+```
+for (datatype element : collection) {
+    // Code to be executed for each element
+}
+```
+
+- **datatype:** The type of elements in the collection.
+- **element:** A variable to represent each element in the collection.
+- **collection:** The array or collection you want to iterate over.
+
+Example:
+Let's say you have an array of integers and you want to print each element:
+
+```java
+public class ForEachLoopExample { 
+    public static void main(String[] args) {
+    int[] numbers = {1, 2, 3, 4, 5}; 
+        for (int num : numbers) { 
+            System.out.println("Number: " + num); 
+        } //for each block
+    } //main method block
+} //class block
+```
+
+In this example:
+- ```int num``` is used to represent each element in the numbers array.
+- ```for (int num : numbers)``` iterates over each element in the array.
+- ```System.out.println("Number: " + num)``` prints each element.
+
+The **foreach** loop is efficient and simplifies the code when you need to iterate over elements in collections, making it a great choice for beginners.
