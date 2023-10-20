@@ -58,7 +58,7 @@ while (condition) {
 } 
 ```
 
-> **Condition:** The loop continues executing as long as the condition evaluates to _true_. If it becomes _false_, the loop terminates.
+> **Condition:** The loop continues executing as long as the condition evaluates to ```true```. If it becomes ```false```, the loop terminates.
 
 Example:
 
@@ -128,7 +128,7 @@ In this program:
 
 The ```do```-```while``` loop ensures that the input is collected at least once, making it suitable for situations where you want a guaranteed initial execution.
 
-Both while and ```do```-```while``` loops are fundamental for controlling program flow and iteration in Java. The choice between them depends on your specific requirements.
+> Both while and ```do```-```while``` loops are fundamental for controlling program flow and iteration in Java. The choice between them depends on your specific requirements.
 
 ## Foreach Loop
 
@@ -164,4 +164,4 @@ In this example:
 - ```for (int num : numbers)``` iterates over each element in the array.
 - ```System.out.println("Number: " + num)``` prints each element.
 
-The **foreach** loop is efficient and simplifies the code when you need to iterate over elements in collections, making it a great choice for beginners.
+> The **foreach** loop is efficient and simplifies the code when you need to iterate over elements in collections, making it a great choice for beginners.
