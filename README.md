@@ -79,17 +79,24 @@ But this repository noted for only Java, Spring and Spring Boot.
 
 </details>
 
-<details open>
+<details>
   <summary>Week 9</summary>
 
 19. [24 Oct - Java](./Day%2019%20-%2024%20Oct%20-%20Java.md)
 
 </details>
 
-<details open>
+<details>
   <summary>Week 10</summary>
 
   No classes
+
+</details>
+
+<details open>
+  <summary>Week 11</summary>
+
+20. [07 Nov - Java](./Day%2020%20-%2007%20Nov%20-%20Java.md)
 
 </details>
 
