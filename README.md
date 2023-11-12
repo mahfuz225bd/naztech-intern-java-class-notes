@@ -111,6 +111,8 @@ Books:
 
 - "The Complete Reference of Java" by _Herbert Shield_
 
+For more learn about other language, framework and etc. etc. Please, [click here](https://jobayerhossain-dev.gitbook.io/programming-resources/)
+
 ## Trainers
 
 - Md. Mominul Islam (Digital Marketing Manager at _naztech Inc, Dhaka, Bangladesh_)
