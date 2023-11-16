@@ -17,4 +17,8 @@
 * [Day 14 - 04 Oct](<Day 14 - 04 Oct - Java.md>)
 * [Day 15 - 10 Oct](<Day 15 - 10 Oct - Java.md>)
 * [Day 16 - 11 Oct](<Day 16 - 11 Oct - Java.md>)
+* [Day 17 - 17 Oct](<Day 17 - 17 Oct - Java.md>)
+* [Day 18 - 18 Oct](<Day 18 - 18 Oct - Java.md>)
+* [Day 19 - 24 Oct](<Day 19 - 24 Oct - Java.md>)
+* [Day 20 - 07 Nov](<Day 20 - 07 Nov - Java.md>)
 * [All PDF Files](pdf\_links.md)
