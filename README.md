@@ -90,10 +90,6 @@ But this repository noted for only Java, Spring and Spring Boot.
   -	Understanding of Spring Java Application Framework 
   -	Understanding of Spring Boot
 
-- Module 12: Project and Practical Applications
-  -	Guided project to apply learned concepts
-  -	Using Java in real-world scenarios (e.g., simple apps, utilities)
-
 ### Index by Week
 
 <details open>
